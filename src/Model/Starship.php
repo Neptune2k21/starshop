@@ -21,4 +21,12 @@ class Starship{
     {
         return $this->class;
     }
+    public function getCaptain(): string
+    {
+        return $this->captain;
+    }
+    public function getStatus(): string
+    {
+        return $this->status;
+    }
 }
