@@ -18,21 +18,21 @@ class StarshipRepository
                 'USS LeafyCruiser (NCC-0001)',
                 'Garden',
                 'Jean-Luc Pickles',
-                StarshipStatusEnum::IN_PROGRESS->value
+                StarshipStatusEnum::IN_PROGRESS
             ),
             new Starship(
                 2,
                 'USS Espresso (NCC-1234-C)',
                 'Latte',
                 'James T.Quick',
-                StarshipStatusEnum::COMPLETED->value
+                StarshipStatusEnum::COMPLETED
             ),
             new Starship(
                 3,
                 'USS Wanderlust (NCC-2024-C)',
                 'Delta Tourist',
                 'Kathryn Journeyway',
-                StarshipStatusEnum::WAITING->value
+                StarshipStatusEnum::WAITING
             ),
         ];
     }
